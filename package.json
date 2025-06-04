@@ -2,7 +2,7 @@
   "homepage": "https://bommisettysukesh.github.io/portfolio-website",
   "name": "portfolio-website",
   "version": "0.1.0",
-  "private": false,
+  "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
