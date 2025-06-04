@@ -1,0 +1,80 @@
+/* Navbar Styles */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #2c3e50;
+  z-index: 1000;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 20px;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.nav-links li a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.nav-links li a.active {
+  background-color: #3498db;
+}
+
+/* Adjust main content for fixed navbar */
+main {
+  padding-top: 80px;
+}
+
+/* Header adjustment */
+.header {
+  margin-top: 70px;
+}
+
+/* Skill level bars */
+.skill-level {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.level-bar {
+  height: 8px;
+  background-color: #3498db;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.skill-level span {
+  font-size: 0.9rem;
+  color: #666;
+}
